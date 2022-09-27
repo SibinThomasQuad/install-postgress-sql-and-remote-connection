@@ -8,17 +8,17 @@
 
 4,sudo -i -u postgres
 
-#How to create a user with PSQL
+# How to create a user with PSQL
 
 1,sudo -u postgres createuser <name> --pwprompt
 
 2,sudo -u postgres createuser <name> -P
 
-#Give all permissions to a user on a PostgreSQL database
+# Give all permissions to a user on a PostgreSQL database
 
 1,GRANT CONNECT ON DATABASE my_db TO my_user;
 
-#Configure PostgreSQL to allow remote connection
+# Configure PostgreSQL to allow remote connection
 
 1,find / -name "postgresql.conf"
 
